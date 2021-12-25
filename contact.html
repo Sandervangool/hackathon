@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Meat-Shop contact </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Lettertype links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Libre+Baskerville:ital@1&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="border header">
+        <h1>Welkom op de Meat-Shop</h1>
+    </header>
+
+    <nav>
+        <ul class="ul">
+            <li class="li">
+                <a class="a" href="index.html">Shop</a>
+            </li>
+            <li class="li">
+                <a class="a" href="reviews.html">Reviews</a>
+            </li>
+            <li class="li winkel">
+                <a class="a">Winkelmandje</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="border">
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="fname">Naam:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="order">Ordernummer*:</label><br>
+            <input type="number" id="order" name="order"><br>
+
+            <label for="text">Bericht:</label><br>
+            <textarea id="text" name="text" rows="6" cols="40"></textarea><br>
+
+
+            <input type="submit" value="Versturen">
+
+        </form>
+
+    </main>
+
+    <footer class="border footer">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero leo, pellentesque ornare, adipiscing
+            vitae, rhoncus commodo, nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in, adipiscing ut,
+            est. In fermentum mattis ligula. Nulla ipsum. Vestibulum condimentum condimentum augue. Nunc purus risus,
+            volutpat sagittis, lobortis at, dignissim sed, sapien. Fusce porttitor iaculis ante. Curabitur eu arcu.
+            Morbi quam purus, tempor eget, ullamcorper feugiat, commodo ullamcorper, neque.</h2>
+    </footer>
+
+</body>
+
+</html>
